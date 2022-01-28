@@ -1,0 +1,322 @@
+@media (max-width:1366px){
+	.at-loginotheraccount::after{
+		left: 60px;
+		width: 150px;
+	}
+	.at-loginotheraccount::before{
+		right: 60px;
+		width: 150px;
+	}
+	.at-artistcontent{
+		grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+	}
+	.at-categorysongs{grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));}
+}
+@media (max-width:1300px){
+	.at-complaint{padding: 15px;}
+	.at-stat > h3 {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	.at-stat > span {
+		font-size: 12px;
+		padding: 0 0 10px;
+		line-height: 15px;
+	}
+	.at-statcontent em, 
+	.at-statcontent span{
+		font-size: 10px;
+		line-height: 13px;
+	}
+	.at-stats ul{padding: 15px 10px;}
+	.at-loginotheraccount::after,
+	.at-loginotheraccount::before{
+		width: 80px;
+	}
+}
+@media (max-width:1199px){
+	.at-logincontent{padding: 40px;}
+	.at-adstable{
+		overflow: auto;
+	}
+	.at-tabletheme{
+		min-width: 800px;
+		overflow: auto;
+	}
+	.at-adstable table tbody tr td{font-size: 12px;}
+}
+@media (max-width:991px){
+	.at-loginformholder{
+		height: calc(100vh - 150px);
+	}
+	.at-loginformholder .at-formtheme fieldset legend {
+		font-size: 24px;
+		line-height: 30px;
+		padding: 0 0 30px;
+	}
+	.at-loginformholder .at-formtheme fieldset legend em {
+		font-size: 14px;
+		padding: 10px 0 0;
+		line-height: 17px;
+	}
+	.at-sidebarwrapper{
+		width: 100px;
+		padding: 20px 20px 0;
+	}
+	.at-logoutarea a span,
+	.at-logo{display: none;}
+	.at-btnmenu{
+		display: block;
+		padding: 0 11px 20px;
+	}
+	.at-logoutarea a{text-align: center;}
+	.at-logoutarea a i{float: none;}
+	.at-logoicon{
+		display: block;
+		padding: 0 11px;
+	}
+	.at-wrapper{
+		padding: 100px 0 0 100px;
+	}
+	.at-header {
+		left: 100px;
+		width: calc(100% - 100px);
+	}
+	.at-navigation ul li a span{display: none;}
+	.at-sidebar{padding: 40px 0 0;}
+	.at-loginimagearea .at-logo{display: block;}
+}
+@media (max-width:800px){
+	.at-btnlogin {
+		padding: 0 20px;
+		font-size: 14px;
+		line-height: 28px;
+	}
+}
+@media (max-width:767px){
+	.at-loginimagearea{
+		height: 0;
+		width: 100%;
+		padding: 30px;
+		background: none;
+		overflow: inherit;
+	}
+	.at-loginimg{
+		height: 0;
+		display: none;
+	}
+	.at-logincontent{
+		width: 100%;
+		padding: 30px;
+	}
+	.at-loginformholder{height: 80vh;}
+	.at-wrapper{padding: 90px 0 0 100px;}
+	.at-header,
+	.at-content{padding: 20px;}
+	.at-username {
+		padding: 0;
+		display: none;
+	}
+	.at-userimglabel{width: 100%;}
+	.at-userimglabel .at-btn{float: right;}
+	.at-uploadimgarea figure {
+		width: 100px;
+		float: none;
+		margin: 0 auto;
+	}
+	.at-adstab{font-size: 14px;}
+	.at-stats ul{
+		width: 100%;
+		border-radius: 6px 6px 0 0;
+}
+	.at-stats ul.at-balance{
+		width: 100%;
+		border-radius: 0 0 6px 6px;
+}
+	.at-stats ul li {
+		width: 50%;
+		padding: 10px 0;
+	}
+}
+@media (max-width:640px){
+	.at-logoutmodal .modal-title {
+		font-size: 18px;
+		line-height: 21px;
+	}
+	.at-logoutmodal .modal-header {padding: 0 0 20px;}
+	.at-logoutmodal .at-btnholder a {
+		font-size: 13px;
+		line-height: 40px;
+		border-radius: 4px;
+	}
+	.at-uploadimginput label i {
+		font-size: 36px;
+		line-height: 40px;
+		padding: 55px 0 10px;
+	}
+	.at-uploadimginput label span {
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.at-uploadimginput label{height: 180px;}
+	.at-charttitle h4 {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	.at-balancechartarea{padding: 10px;}
+	.at-btnchartdropdown span{padding: 0 20px 0 0;}
+}
+@media (max-width:568px){
+	.at-inputwidthholder input,
+	.at-inputwidthfifty input,
+	.at-genderselect .at-selecttheme,
+	.form-group input {
+		height: 38px;
+		font-size: 14px;
+		line-height: 17px;
+		border-radius: 4px;
+	}
+	.at-inputwidthfifty .at-btn{padding: 0;}
+	.at-inputwidthfiftyvtwo label, 
+	.at-inputwidthfifty label,
+	.form-group label{font-size: 14px;}
+	.at-btn {
+		padding: 0 30px;
+		font-size: 14px;
+		line-height: 40px;
+		border-radius: 4px;
+	}
+	.at-inputwidthholder, .form-group{margin: 0 0 15px;}
+	.at-btnfbgl a {
+		width: 48%;
+		color: #fff;
+		font-size: 18px;
+		line-height: 37px;
+		font-style: normal;
+		text-align: center;
+		border-radius: 4px;
+	}
+	.at-loginformholder .at-formtheme fieldset legend {
+		font-size: 18px;
+		line-height: 21px;
+		padding: 0 0 30px;
+	}
+	.at-notaccount {
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.at-btnprofile i {
+		float: right;
+		color: #fff;
+		font-size: 12px;
+		padding: 12px 0;
+		line-height: 15px;
+	}
+	.at-btnprofile figure {
+		width: 40px;
+		height: 40px;
+		margin: 0 10px 0 0;
+	}
+	.at-wrapper{padding: 80px 0 0 0;}
+	.at-searchform {width: 160px;}
+	.at-sidebarwrapper{left: -100px;}
+	.at-closemenu .at-sidebarwrapper{
+		left: 0;
+		width: 280px;
+	}
+	.at-loginimagearea .at-logo {
+		width: 120px;
+		float: none;
+		margin: 0 auto;
+	}
+	.at-loginotheraccount::after,
+	.at-loginotheraccount::before{width: 100px;}
+	.at-loginotheraccount::after{left: 50px;}
+	.at-loginotheraccount::before{right: 50px;}
+	.at-header{
+		left: 0;
+		width: 100%;
+		padding: 20px 10px 20px 60px;
+	}
+	.at-btnmenu{
+		left: 0;
+		top: 30px;
+		font-size: 14px;
+	}
+	.at-logo{width: 150px;}
+	.at-navigation{padding: 40px 0 0;}
+	.at-navigation ul li a {
+		font-size: 14px;
+		padding: 0 10px;
+		line-height: 40px;
+		border-radius: 4px;
+	}
+	.at-navigation ul li a i {
+		font-size: 21px;
+		padding: 0 20px 0 0;
+	}
+	.at-logoutarea a {
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.at-logoutarea a i {
+		font-size: 21px;
+		line-height: 24px;
+	}
+	.at-pageheadrrightarea .at-btn i{
+		font-size: 21px;
+		line-height: 40px;
+		padding: 0 10px 0 0;
+	}
+	.at-pageheadrrightarea .at-btn{padding: 0 12px;}
+	.at-artistdetail h3 {
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.at-changepassword h4,
+	.at-pagetitle h2,
+	.at-category h4{
+		font-size: 18px;
+		line-height: 21px;
+	}
+	.at-pagetitle{padding: 9px 0;}
+	.at-pagehead{padding: 0 0 20px;}
+	.at-categorysongs{grid-gap: 20px;}
+	.at-songtitle h3{font-size: 14px;}
+	.at-loginsignupbtnholder {
+		float: none;
+		max-width: 190px;
+		margin: 0 auto;
+	}
+	.at-complaintshead figure{
+		width: 40px;
+		height: 40px;
+	}
+	.at-complainuser h3{
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.at-dots{padding: 12px 0;}
+	.at-complainuser{padding: 0;}
+	.at-complaintshead{padding: 0 0 15px;}
+	.at-complaintttle{padding: 0 0 10px;}
+	.at-complaintcontent{padding: 10px 0;}
+	.at-userimglabel label i {
+		float: left;
+		font-size: 18px;
+		line-height: 21px;
+		padding: 9px 10px 9px 0;
+	}
+	.at-userimglabel .at-btn{padding: 0 20px;}
+	.at-userimglabel label{
+		line-height: 40px;
+		padding: 0 12px !important;
+	}
+}
+@media (max-width:480px){}
+@media (max-width:479px){}
+@media (max-width:400px){
+	.at-loginotheraccount::after{left: 10px;}
+	.at-loginotheraccount::before{right: 10px;}
+	.at-btn{font-size: 12px;}
+}
